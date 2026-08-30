@@ -1,0 +1,13 @@
+{
+  "name": "AP Invoice Fraud Sentinel Pipeline",
+  "version": "1.0.0",
+  "nodes": [
+    {
+      "id": "sentinel_rules_check",
+      "type": "script",
+      "config": {
+        "script": "src/checkScript.ts"
+      }
+    }
+  ]
+}
